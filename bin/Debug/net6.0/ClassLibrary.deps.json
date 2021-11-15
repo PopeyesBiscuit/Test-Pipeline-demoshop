@@ -1,0 +1,43 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClassLibrary/1.0.0": {
+        "dependencies": {
+          "ReportGenerator": "4.8.13",
+          "coverlet.collector": "3.1.0"
+        },
+        "runtime": {
+          "ClassLibrary.dll": {}
+        }
+      },
+      "coverlet.collector/3.1.0": {},
+      "ReportGenerator/4.8.13": {}
+    }
+  },
+  "libraries": {
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "coverlet.collector/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
+      "path": "coverlet.collector/3.1.0",
+      "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "ReportGenerator/4.8.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mE3dBdsNpJ2ldjN4KcE+KsAwODdGIsLbbs4/YBvdn0LGzn2g3ugTZ7A6/ZBb4ofBZrcvSZpYNzvS93XPE2je6w==",
+      "path": "reportgenerator/4.8.13",
+      "hashPath": "reportgenerator.4.8.13.nupkg.sha512"
+    }
+  }
+}
